@@ -19,7 +19,7 @@ class Solution {
     }
     
     private double Area(int[] a, int[] b) {
-        int l = b[0] - a[0];
+        double l = b[0] - a[0];
         double h = (b[1] + a[1] )/2.0;
         return l*h;
     }
