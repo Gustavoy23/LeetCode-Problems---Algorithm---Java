@@ -37,7 +37,7 @@ class Solution {
         int res = 0;
         while(prev != null) {
             res = Math.max(res, head.val + prev.val);
-            System.out.println(prev.val);
+           // System.out.println(prev.val);
             head = head.next;
             prev = prev.next;
         }
