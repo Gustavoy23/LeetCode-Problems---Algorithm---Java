@@ -1,7 +1,7 @@
 class Solution {
     public int fourSumCount(int[] nums1, int[] nums2, int[] nums3, int[] nums4) {
         
-        Map<Integer,Integer> mapA = new HashMap<>();
+        HashMap<Integer,Integer> mapA = new HashMap<>();
         
         int n = nums1.length;
         
